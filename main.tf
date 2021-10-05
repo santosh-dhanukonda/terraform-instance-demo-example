@@ -18,7 +18,7 @@ resource "aws_instance" "ec2-demo-example" {
 }
 
 resource "aws_security_group" "webserver_security_group" {
-	name = "Webs servers Group"
+	name = "Web servers Group"
 	description = "Host all of the HTTP Webservers"
 	ingress  {
 	      from_port        = 8080
